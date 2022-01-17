@@ -1,0 +1,8 @@
+untyped
+global function jorb_weapons_precache
+
+void function jorb_weapons_precache()
+{
+    PrecacheWeapon( "mp_titanweapon_arccannon" )
+    printt("TF1 Arc Cannon")
+}

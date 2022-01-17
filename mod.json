@@ -1,0 +1,24 @@
+{
+    "Name": "Jorb.ACannon",
+    "Description": "TF1 Arc Cannon",
+    "Version": "1.0.0",
+    "RequiredOnClient": true,
+    "LoadPriority": 1,
+    "ConVars": [],
+    "Scripts": [
+        
+        {
+          "Path": "acprecache.gnut",
+          "RunOn": "( CLIENT || SERVER ) && MP",
+          "ClientCallback": {
+            "After": "jorb_weapons_precache"
+          },
+          "ServerCallback": {
+            "After": "jorb_weapons_precache"
+          }
+        }
+    ],
+    "Localisation": [
+        
+    ]
+}
